@@ -3,4 +3,4 @@ const mockEnv = require('../../../api/api.json')
 const serverless = require('serverless-http')
 const mockoonServerless = new mockoon.MockoonServerless(mockEnv)
 
-exports.handler = serverless(mockoonServerless.netlifyHandler())
+exports.handler = serverless(mockoonServerless.firebaseApp())

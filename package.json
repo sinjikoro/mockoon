@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@mockoon/serverless": "^4.0.0",
-    "@netlify/functions": "^1.6.0"
+    "@mockoon/serverless": "^3.0.0"
   }
 }

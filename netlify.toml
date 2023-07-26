@@ -1,5 +1,8 @@
+[build]
+  publish = "build/"
+  command = "npm run build"
 [[redirects]]
   force = true
   from = "/api/*"
   status = 200
-  to = "/.netlify/functions/hello"
+  to = "/.netlify/functions/mockoon/:splat"
